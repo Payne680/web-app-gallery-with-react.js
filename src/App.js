@@ -50,7 +50,7 @@ export default class App extends Component {
     }
 
   }componentDidMount () {
-    this.interval = setInterval(this.add.bind(this), 5000)
+    this.interval = setInterval(this.add.bind(this), 4000)
   }
 
   add() {
